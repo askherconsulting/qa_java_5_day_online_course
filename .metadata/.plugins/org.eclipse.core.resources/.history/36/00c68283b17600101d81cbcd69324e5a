@@ -1,0 +1,19 @@
+package demo;
+
+public class Hello {
+	
+	String firstName = "Beth";
+	boolean young = true;
+	//can pass in unicode e.g. '\u0000'
+	char a = 'a';
+	int teamA, teamB, teamC;
+	
+	//literals things like Integer Floats, Character, String
+
+	public static void main(String [] args) {
+		
+		System.out.println("Hello World Again!\n");
+		
+	}
+	
+}

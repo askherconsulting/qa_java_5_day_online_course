@@ -1,0 +1,22 @@
+package qa;
+
+public class TestVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name = "Beth";
+		int age = 21;
+		int m = 1;
+		double x = 0.5d;
+		int c = 15;
+		double y = m*x*c;
+		
+		
+		
+		System.out.println(name);
+		System.out.println("the user name is " + name + " their age is " + age);
+		System.out.println(m + c + x + "equals " + y);
+	}
+
+}

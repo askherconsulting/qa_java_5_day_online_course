@@ -1,0 +1,15 @@
+package qa;
+public class Hello {
+    public static void main(String[] args) {
+        //print out hello world!
+        /**
+         *
+         * javadoc read by javadoc tool to create documentation
+         */
+
+        /*
+        multi line comment
+         */
+        System.out.println("Hello world!");
+    }
+}

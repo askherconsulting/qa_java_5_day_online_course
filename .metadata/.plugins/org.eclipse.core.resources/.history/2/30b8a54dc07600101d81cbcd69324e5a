@@ -1,0 +1,40 @@
+package qa;
+
+public class TestVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name = "Beth";
+		int age = 21;
+		int m = 1;
+		double x = 0.5d;
+		int c = 15;
+		double y = m*(x+c);
+		boolean isRaining = true;
+		boolean happy = false;
+		
+		if (isRaining && happy) {
+			System.out.println("is raining equals " + isRaining + " is happy equals " +  happy);
+		} else if (isRaining && !happy) {
+			System.out.println("is raining equals " + isRaining + " is happy equals " +  happy);
+		} else if (!isRaining && happy) {
+			System.out.println("is raining equals " + isRaining + " is happy equals " +  happy);
+		} else if (!isRaining || !happy) {
+			System.out.println("is raining equals " + isRaining + " is happy equals " +  happy);
+		}
+		
+		System.out.println("is raining and happy = " + (isRaining && happy));
+		System.out.println("is raining and no happy = " + (isRaining && !happy));
+		System.out.println("is not raining and happy = " + (!isRaining && happy));
+		System.out.println("is not raining and is not happy = " + (!isRaining && !happy));
+		
+		
+		
+		
+		System.out.println(name);
+		System.out.println("the user name is " + name + " their age is " + age);
+		System.out.println(m * c + x + " equals " + y);
+	}
+
+}
